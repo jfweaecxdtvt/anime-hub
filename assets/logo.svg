@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF4FA3" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF4FA3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4FE3FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FE3FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background sticker emblem -->
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#141026"/>
+  <rect x="16" y="16" width="224" height="224" rx="46" fill="none" stroke="#F5F0FF" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Soft neon glows behind symbol -->
+  <circle cx="118" cy="112" r="82" fill="url(#glowPink)"/>
+  <circle cx="142" cy="140" r="70" fill="url(#glowBlue)"/>
+
+  <!-- Speed-line frame (playful energy burst, off-center) -->
+  <g stroke="#4FE3FF" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <line x1="28" y1="76" x2="52" y2="82"/>
+    <line x1="24" y1="104" x2="46" y2="106"/>
+    <line x1="30" y1="132" x2="50" y2="130"/>
+    <line x1="228" y1="72" x2="206" y2="80"/>
+    <line x1="232" y1="100" x2="210" y2="104"/>
+    <line x1="226" y1="128" x2="208" y2="126"/>
+  </g>
+  <g stroke="#FF4FA3" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <line x1="34" y1="160" x2="56" y2="156"/>
+    <line x1="222" y1="156" x2="200" y2="154"/>
+    <line x1="44" y1="186" x2="64" y2="180"/>
+    <line x1="212" y1="182" x2="192" y2="178"/>
+  </g>
+
+  <!-- Stacked Torii Gate base (bottom pillar structure) -->
+  <!-- Bottom horizontal beam -->
+  <path d="M62 208 L194 208 L202 192 L54 192 Z" fill="#F5F0FF"/>
+  <path d="M62 208 L194 208 L194 216 L62 216 Z" fill="#F5F0FF" opacity="0.55"/>
+
+  <!-- Left pillar -->
+  <path d="M78 118 L92 118 L96 196 L74 196 Z" fill="#F5F0FF"/>
+  <!-- Right pillar -->
+  <path d="M164 118 L178 118 L182 196 L160 196 Z" fill="#F5F0FF"/>
+
+  <!-- Pillar neon accents -->
+  <rect x="82" y="124" width="4" height="62" rx="2" fill="#FF4FA3"/>
+  <rect x="168" y="124" width="4" height="62" rx="2" fill="#4FE3FF"/>
+
+  <!-- Upper Torii crossbeam (curved kasagi) -->
+  <path d="M44 112 Q128 84 212 112 L208 128 Q128 100 48 128 Z" fill="#FF4FA3"/>
+  <path d="M44 112 Q128 84 212 112 L210 118 Q128 90 46 118 Z" fill="#F5F0FF" opacity="0.9"/>
+
+  <!-- Second crossbeam (nuki) -->
+  <path d="M60 136 L196 136 L198 148 L58 148 Z" fill="#F5F0FF"/>
+
+  <!-- Glowing play-button aperture fused at center of gate -->
+  <g>
+    <!-- Aperture hex ring -->
+    <polygon points="128,92 158,110 158,146 128,164 98,146 98,110" fill="#141026" stroke="#4FE3FF" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Inner neon glow -->
+    <polygon points="128,100 150,114 150,142 128,156 106,142 106,114" fill="none" stroke="#FF4FA3" stroke-width="2" opacity="0.7"/>
+    <!-- Central play triangle (original, elongated, overlapping aperture) -->
+    <path d="M118 108 L148 128 L118 148 Z" fill="#FF4FA3"/>
+    <path d="M118 108 L148 128 L118 148 Z" fill="none" stroke="#F5F0FF" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Play button highlight -->
+    <path d="M122 114 L140 128 L122 142 Z" fill="#F5F0FF" opacity="0.35"/>
+  </g>
+
+  <!-- Aperture light rays radiating -->
+  <g stroke="#4FE3FF" stroke-width="2.5" stroke-linecap="round" opacity="0.7">
+    <line x1="128" y1="82" x2="128" y2="72"/>
+    <line x1="166" y1="96" x2="174" y2="88"/>
+    <line x1="90" y1="96" x2="82" y2="88"/>
+    <line x1="176" y1="128" x2="186" y2="128"/>
+    <line x1="80" y1="128" x2="70" y2="128"/>
+  </g>
+
+  <!-- Small community star accents (playful, off-center) -->
+  <g fill="#FF4FA3">
+    <polygon points="212,48 214,54 220,54 215,58 217,64 212,60 207,64 209,58 204,54 210,54" transform="translate(0,-6) scale(0.85) translate(36,12)"/>
+    <polygon points="212,48 214,54 220,54 215,58 217,64 212,60 207,64 209,58 204,54 210,54" transform="translate(-12,64) scale(0.6) translate(60,20)"/>
+  </g>
+  <g fill="#4FE3FF">
+    <polygon points="212,48 214,54 220,54 215,58 217,64 212,60 207,64 209,58 204,54 210,54" transform="translate(28,88) scale(0.55) translate(80,20)"/>
+  </g>
+
+  <!-- Wordmark (small, optional) -->
+  <text x="128" y="238" text-anchor="middle" font-family="Verdana, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#F5F0FF" opacity="0.85">ANIME-HUB</text>
+</svg>
